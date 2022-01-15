@@ -129,7 +129,7 @@ func (solver *Solver) ApplyResult(guess [5]byte, result [5]byte) {
 
 func (solver *Solver) GetGuess() [5]byte {
 	var guess [5]byte
-	guessRank := 0
+	guessRank := -1
 	for _, word := range solver.words {
 		wordRank := 0
 		wordLetters := make(map[byte]bool)
