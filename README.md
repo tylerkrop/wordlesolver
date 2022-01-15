@@ -6,8 +6,8 @@ I wrote this program to solve puzzles from https://www.powerlanguage.co.uk/wordl
 
 ## Running
 
-The program can be run directly using `go` via `go run main.go`.
-Alternatively, the binary can be built using `go build main.go`.
+The program can be run directly using `go` via `go run . <path-to-word-list>`.
+Alternatively, the binary `wordlesolver` can be built using `go build`.
 
 ## User Guide
 
